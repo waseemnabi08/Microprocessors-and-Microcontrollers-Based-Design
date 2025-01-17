@@ -1,0 +1,19 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: Lab8.mcp
+# Date: Tue Dec 03 10:23:19 2024
+
+AS = MPASMWIN.exe
+CC = 
+LD = mplink.exe
+AR = mplib.exe
+RM = rm
+
+Lab8.cof : Task1.o
+	$(CC) /p18F452 "C:\Program Files (x86)\Microchip\MPASM Suite\LKR\18f452_g.lkr" "Task1.o" /z__MPLAB_BUILD=1 /o"Lab8.cof" /M"Lab8.map" /W
+
+Task1.o : Task1.asm C:/Program\ Files\ (x86)/Microchip/MPASM\ Suite/p18f452.inc
+	$(AS) /q /p18F452 "Task1.asm" /l"Task1.lst" /e"Task1.err" /o"Task1.o"
+
+clean : 
+	$(CC) "Task1.o" "Task1.err" "Task1.lst" "Lab8.cof" "Lab8.hex"
+

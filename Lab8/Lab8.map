@@ -1,0 +1,38 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Tue Dec 03 11:09:13 2024
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000030
+                   .cinit    romdata   0x000030    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000031      
+            50 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Delay   0x000020    program     static D:\5th Sem\MicroProcessors\Lab8\Task1.asm
+                DelayLoop   0x000024    program     static D:\5th Sem\MicroProcessors\Lab8\Task1.asm
+                 MainLoop   0x00000e    program     static D:\5th Sem\MicroProcessors\Lab8\Task1.asm
+                    Start   0x000004    program     static D:\5th Sem\MicroProcessors\Lab8\Task1.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Start   0x000004    program     static D:\5th Sem\MicroProcessors\Lab8\Task1.asm
+                 MainLoop   0x00000e    program     static D:\5th Sem\MicroProcessors\Lab8\Task1.asm
+                    Delay   0x000020    program     static D:\5th Sem\MicroProcessors\Lab8\Task1.asm
+                DelayLoop   0x000024    program     static D:\5th Sem\MicroProcessors\Lab8\Task1.asm
+
+
