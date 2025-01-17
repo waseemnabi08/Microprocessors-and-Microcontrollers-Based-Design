@@ -1,0 +1,7 @@
+< SYMBOL TABLE >
+=======================================
+Name	Offset	Size	Type	Segment
+=======================================
+MSG	00102	1	VAR	(NOSEG)
+START	0012E	-1	LABEL	(NOSEG)
+< END of SYMBOL TABLE >

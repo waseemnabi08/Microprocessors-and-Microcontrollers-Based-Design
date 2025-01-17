@@ -1,0 +1,8 @@
+< SYMBOL TABLE >
+=======================================
+Name	Offset	Size	Type	Segment
+=======================================
+D2CODE_LOC_1234_XXX	00100	-1	LABEL	(NOSEG)
+LOOP_START	00103	-1	LABEL	(NOSEG)
+END_LOOP	0010F	-1	LABEL	(NOSEG)
+< END of SYMBOL TABLE >

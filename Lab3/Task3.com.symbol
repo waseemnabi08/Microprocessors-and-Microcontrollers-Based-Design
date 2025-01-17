@@ -1,0 +1,13 @@
+< SYMBOL TABLE >
+=======================================
+Name	Offset	Size	Type	Segment
+=======================================
+MSG	00103	1	VAR	(NOSEG)
+MSG2	0012E	1	VAR	(NOSEG)
+BUFFER	0015A	1	VAR	(NOSEG)
+BUFFER2	00165	1	VAR	(NOSEG)
+MSG1	00170	1	VAR	(NOSEG)
+SPACE	0019E	1	VAR	(NOSEG)
+D2CODE_LOC_1234_XXX	0019F	-1	LABEL	(NOSEG)
+START	0019F	-1	LABEL	(NOSEG)
+< END of SYMBOL TABLE >
